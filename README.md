@@ -33,7 +33,7 @@ AI-Autonomous-Navigation-System/
 ---
 
 
-### Simulation Workflow (What you will see)
+### Simulation Workflow 
 1.  **Initialization:** The map, boundaries, and internal walled obstacles are rendered instantly.
 2.  **Global Planning Phase:** The terminal will display `Planning initial path...`. It discretizes the space and runs A* from `(40, 40)` to `(700, 500)`.
 3.  **Start:** The autonomous vehicle (green dot) appears. Yellow line represents the solved optimal path.
