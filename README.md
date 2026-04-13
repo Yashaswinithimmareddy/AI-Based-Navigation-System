@@ -32,41 +32,6 @@ AI-Autonomous-Navigation-System/
 
 ---
 
-## ⚙️ Installation & Environment Setup
-
-This project uses modern Python tools but is highly beginner-friendly and requires NO GPU.
-
-### Requirements:
-*   Python 3.8 or above
-*   Windows / Mac / Linux
-
-### Setup Steps (Windows)
-```bash
-# 1. Clone repository (or navigate to folder)
-cd AI-Autonomous-Navigation-System
-
-# 2. Create a virtual environment
-python -m venv venv
-
-# 3. Activate the environment
-# Windows:
-venv\Scripts\activate
-# Mac/Linux:
-# source venv/bin/activate
-
-# 4. Install Dependencies
-pip install -r requirements.txt
-```
-
----
-
-## 🚀 How to Run
-
-After installing dependencies, run the main control loop:
-
-```bash
-python main.py
-```
 
 ### Simulation Workflow (What you will see)
 1.  **Initialization:** The map, boundaries, and internal walled obstacles are rendered instantly.
